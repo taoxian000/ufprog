@@ -21,7 +21,7 @@ struct ch34x_handle;
 
 #define CH347_SPI_CMD_LEN			3
 #define CH347_SPI_MAX_CS			2
-#define CH347_SPI_MAX_FREQ			60000000
+#define CH347_SPI_MAX_FREQ			15000000
 #define CH347_SPI_MAX_PRESCALER			7
 
 #define CH347_SPI_DFL_PRESCALER			5
