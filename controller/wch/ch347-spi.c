@@ -186,7 +186,7 @@ ufprog_status ch347_spi_init(struct ufprog_interface *wchdev, struct json_object
 	wchdev->spicfg.SPI_CPHA = SPI_CPHA_1Edge;
 	wchdev->spicfg.SPI_NSS = SPI_NSS_Software;
 	wchdev->spicfg.SPI_FirstBit = SPI_FirstBit_MSB;
-	wchdev->spicfg.SPI_WriteReadInterval = 0;
+	wchdev->spicfg.SPI_WriteReadInterval = 1;
 	wchdev->spicfg.SPI_OutDefaultData = 0;
 	wchdev->spicfg.SPI_BaudRatePrescaler = CH347_SPI_DFL_PRESCALER * 8;
 	wchdev->spicfg.OtherCfg &= 0x3f;
